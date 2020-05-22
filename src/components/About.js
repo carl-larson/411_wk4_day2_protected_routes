@@ -16,7 +16,7 @@ class About extends Component {
             })
         }
         return this.setState({
-            heading: 'About Cars.com',
+            heading: 'About RealFakeCars.com',
             checked: newVal
         })
     }
@@ -27,26 +27,15 @@ class About extends Component {
                 <Container maxWidth="sm">
                     <h1 style={{ textAlign: 'center' }}>{this.state.heading}</h1>
                     <p>
-                        FakeCars.com was created to solve a specific problem.
-                        That problem is quick and reliable access to details 
-                        about many different models, all in one place. We had
-                        to use the word "Fake" in our name so that we don't 
-                        get sued by the real&nbsp; 
-                        <a style={{ color: 'mediumblue' }}
-                        href="https://www.cars.com"
-                        target="_blank" rel="noopener noreferrer">Cars.com</a>
-                        &nbsp;but we won't worry too much about that. We've provided a 
-                        link to the actual cars.com above and we did not 
-                        receive any money from them to do so. Although, there's 
-                        an argument that maybe we should since we are a top-notch
-                        coding bootcamp and anyone would want to be associated with
-                        us :)
+                    Hey, are you tired of real cars, cluttering up your garage, where you open 'em, 
+                    and they actually turn on and go somewhere? And you drive to another place?
                     </p>
                     <Divider />
                     <p>
-                        If you'd like you can toggle the word "Fake" because
-                        why not? We have the potential to be the real cars.com 
-                        if we wanted to be.
+                    Get on down to "Real Fake Cars"! That's us. Fill a whole garage up with 'em. See? 
+                    Watch, check this out! Won't open. Won't start. Not this 
+                    one, not this one. None of 'em start! RealFakeCars.com is our website, so check it out 
+                    for a lot of really great deals on fake cars!
                     </p>
                     <Switch
                         checked={this.state.checked}
